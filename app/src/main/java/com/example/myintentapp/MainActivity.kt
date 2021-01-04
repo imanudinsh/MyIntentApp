@@ -1,6 +1,7 @@
 package com.example.myintentapp
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -24,6 +25,12 @@ class MainActivity : AppCompatActivity(){
             moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_NAME, "Dicky Rachmadi")
             moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_AGE, 27)
             startActivity(moveWithDataIntent)
+        }
+
+        btn_dial_number.setOnClickListener {
+            val myPhoneNumber = "087775760360"
+            val dialPhoneIntent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$myPhoneNumber"))
+            startActivity(dialPhoneIntent)
         }
     }
 }
