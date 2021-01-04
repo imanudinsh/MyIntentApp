@@ -7,7 +7,7 @@ import kotlinx.android.synthetic.main.activity_move_with_data.*
 
 class MoveWithDataActivity : AppCompatActivity() {
     companion object {
-        const val EXTRA_AGE = "extra_age"git 
+        const val EXTRA_AGE = "extra_age"
         const val EXTRA_NAME = "extra_name"
     }
 
