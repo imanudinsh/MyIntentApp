@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 <LinearLayout
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -118,16 +118,16 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_toEndOf="@+id/profile_image"
-            android:text="@string/my_name"
-            android:textStyle="bold"/>
+            android:text="@string/job_title"
+            android:textStyle="italic"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
             android:layout_toEndOf="@+id/profile_image"
-            android:text="@string/job_title"
-            android:textStyle="italic"/>
+            android:text="@string/my_name"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
