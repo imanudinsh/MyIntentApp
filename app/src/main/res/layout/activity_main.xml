@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/BZ2"
         android:text="@string/move_activity" />
 
     <Button
@@ -21,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:text="@string/move_with_data"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/BZ3"
         android:textStyle="bold"/>
 
     <Button
@@ -30,6 +31,15 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:text="@string/dial_number"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="@color/BZ5"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_MyRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/my_recycle"
+        android:backgroundTint="@color/BH6"
         android:textStyle="bold"/>
 </LinearLayout>

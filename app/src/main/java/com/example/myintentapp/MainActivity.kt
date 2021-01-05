@@ -32,5 +32,15 @@ class MainActivity : AppCompatActivity(){
             val dialPhoneIntent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$myPhoneNumber"))
             startActivity(dialPhoneIntent)
         }
+
+        btn_MyRecylerView.setOnClickListener {
+            val moveIntentRecyclerView = Intent (this@MainActivity, MyRecyclerView::class.java)
+            startActivity(moveIntentRecyclerView)
+        }
+
+        supportActionBar?.title = "Menu Belajar"
+
     }
+
+
 }

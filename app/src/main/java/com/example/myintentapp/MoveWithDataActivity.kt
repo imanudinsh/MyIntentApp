@@ -6,6 +6,7 @@ import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_move_with_data.*
 
 class MoveWithDataActivity : AppCompatActivity() {
+
     companion object {
         const val EXTRA_AGE = "extra_age"
         const val EXTRA_NAME = "extra_name"
@@ -20,5 +21,9 @@ class MoveWithDataActivity : AppCompatActivity() {
 
         val text = "Nama : $name, \n Umur Saya : $age"
         tv_data_received.text = text
+
+        supportActionBar?.title = "Move with Data"
     }
+
+
 }
