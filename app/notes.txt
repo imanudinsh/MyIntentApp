@@ -1,0 +1,3 @@
+Notes :
+- file atau resource yang tidak digunakan lebih baik dihapus. Hapus otomatis file file yag tidak digunakan bisa melalui tab File -> Refactor -> Remove unused resources
+- Kelas kelas yang dibuat perlu dibuatkan folder untuk pengelompokan kelas agar lebih rapi dan mudah untuk mencari kelas tertentu

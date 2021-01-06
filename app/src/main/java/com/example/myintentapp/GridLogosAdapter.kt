@@ -18,6 +18,8 @@ class GridLogosAdapter(val listLogos: ArrayList<Logos>) : RecyclerView.Adapter<G
     }
 
     override fun onBindViewHolder(holder: GridViewHolder, position:  Int) {
+        // jika source gambarnya dari local lebih baik tidak menggunakan library. bisa langsung dengan holder.imgPhoto.setImageResource
+        // library Glide bagus digunakan untuk mengambil gambar dari internet
         Glide.with(holder.itemView.context)
             .load(listLogos[position].photo)
             .apply(RequestOptions().override(350,550))

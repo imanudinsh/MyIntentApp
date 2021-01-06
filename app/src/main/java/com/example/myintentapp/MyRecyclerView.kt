@@ -35,6 +35,7 @@ class MyRecyclerView : AppCompatActivity() {
 
     private fun showRecyclerGrid(){
         rv_logos.layoutManager = GridLayoutManager(this, 2)
+        // Penamaan variable dan function sebaiknya camelcase (huruf pertama lower case))
         val GridLogosAdapter = GridLogosAdapter (list)
         rv_logos.adapter = GridLogosAdapter
     }

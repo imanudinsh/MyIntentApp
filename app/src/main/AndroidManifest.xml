@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyIntentApp">
+        <!-- Tag yang tidak memiliki child sebaiknya menggunakan tag tunggal (ex: <activity />) -->
         <activity android:name=".MyRecyclerView"></activity>
         <activity android:name=".MoveWithDataActivity" />
         <activity android:name=".MainActivity">

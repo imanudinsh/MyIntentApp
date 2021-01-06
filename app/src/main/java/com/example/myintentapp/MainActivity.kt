@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity(){
 
         btn_move_activity_data.setOnClickListener  {
             val moveWithDataIntent = Intent (this@MainActivity, MoveWithDataActivity::class.java )
+            // String constant lebih baik tidak mengambil dari kelas activity lain. bisa dengan membuat file kumpulan kumpulan constant untuk dipakai banyak kelas activity
             moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_NAME, "Dicky Rachmadi")
             moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_AGE, 27)
             startActivity(moveWithDataIntent)
