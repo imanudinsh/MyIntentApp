@@ -2,10 +2,8 @@ package com.example.myintentapp
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(){
@@ -36,6 +34,20 @@ class MainActivity : AppCompatActivity(){
         btn_MyRecylerView.setOnClickListener {
             val moveIntentRecyclerView = Intent (this@MainActivity, MyRecyclerView::class.java)
             startActivity(moveIntentRecyclerView)
+        }
+
+        btn_move_activity_object.setOnClickListener {
+
+            val person = Person(
+                "Dicky Rachmadi",
+                27,
+                "dicky_rachmadi@biznetnetworks.com",
+                "Jakarta"
+            )
+
+            val moveWithObjectIntent = Intent(this@MainActivity, MoveWithObject::class.java)
+            moveWithObjectIntent.putExtra(MoveWithObject.EXTRA_PERSON, person)
+            startActivity(moveWithObjectIntent)
         }
 
         supportActionBar?.title = "Menu Belajar"

@@ -2,7 +2,7 @@
     <string name="app_name">Suka2Apps</string>
     <string name="move_activity">Move Activity</string>
     <string name="move_with_data">Move Activity dengan Data</string>
-    <string name="dial_number">Dial a Number</string>
+    <string name="dial_number">Dial my Number</string>
     <string name="my_recycle">My Recycler View</string>
     <string name="data_received">Data diterima</string>
     <string name="this_is_moveactivity">Kita Pindah Activity</string>
@@ -42,5 +42,6 @@
     <string name="with_cardview">with CardView</string>
     <string name="favorite">Favorite</string>
     <string name="share">Share</string>
+    <string name="move_with_object">Move With Object</string>
 
 </resources>

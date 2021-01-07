@@ -4,11 +4,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import java.text.FieldPosition
 
 class GridLogosAdapter(val listLogos: ArrayList<Logos>) : RecyclerView.Adapter<GridLogosAdapter.GridViewHolder>() {
 
@@ -18,6 +16,8 @@ class GridLogosAdapter(val listLogos: ArrayList<Logos>) : RecyclerView.Adapter<G
     }
 
     override fun onBindViewHolder(holder: GridViewHolder, position:  Int) {
+        //holder.imgPhoto.setImageResource
+
         Glide.with(holder.itemView.context)
             .load(listLogos[position].photo)
             .apply(RequestOptions().override(350,550))
