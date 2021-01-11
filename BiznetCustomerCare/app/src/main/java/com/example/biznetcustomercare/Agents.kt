@@ -6,7 +6,7 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class Agent (
     var photo: Int,
-    var nama: String,
-    var email: String,
-    var no_tlp:String
+    var nama: String?,
+    var email: String?,
+    var no_tlp:String?
 ):Parcelable
