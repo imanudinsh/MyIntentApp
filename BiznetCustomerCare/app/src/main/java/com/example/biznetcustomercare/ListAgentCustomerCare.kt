@@ -1,5 +1,7 @@
 package com.example.biznetcustomercare
 
+// Import yang tidak digunakan lebih baik diahpus.. bisa dengan menggunakan shortcut ctrl+alt+o
+
 import android.content.Intent
 import android.content.res.TypedArray
 import androidx.appcompat.app.AppCompatActivity

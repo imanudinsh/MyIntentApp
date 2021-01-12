@@ -39,6 +39,9 @@
             android:layout_toEndOf="@+id/img_item_photo"
             android:layout_toRightOf="@+id/img_item_photo"
             android:orientation="horizontal">
+
+<!--            Font size terlalu kecil, standar minimal ukuran font dari android studio adalah 12 sp-->
+
             <TextView
                 android:id="@+id/tv_email"
                 android:layout_width="match_parent"
@@ -50,6 +53,7 @@
                 android:textColor="@color/BDC4"
                 tools:text="@string/email"/>
 
+            <!--            Font size terlalu kecil, standar minimal ukuran font dari android studio adalah 12 sp-->
             <TextView
                 android:id="@+id/tv_no_tlp"
                 android:layout_width="match_parent"

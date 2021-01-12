@@ -1,0 +1,10 @@
+
+
+Saran saran :
+ - di dlm projek MyIntentApp banyak projek (BiznetHomeCare, MyFlexibleFragment, FundamentalApps, Suka2Apps) yang seharusnya tmpatnya tidak didalam projek dan memiliki repository sendiri di github.
+   Jika dalam apps memang memiliki bberapa apps bisa dibuat modular melalui tab File -> New -> New Module
+ - Code pada xml folder layout masih terdpat beberpa waning (ditandai warna kuning pada sisi paling kanan), memperbaiki code yang terdapat warning membuat kualitas code nya lebih bagus lagi
+ - Pada halaman AboutProfileActivity UX nya akan lebih bagus lagi jika terdapat tombol back karena beberapa device ada yang tidak memiliki tombol navigasi.
+   tombol back biasanya berupa icon arraw left (arah kekiri)  dipojo dikiri atas (didalam toolbar)
+ - Tema aplikasi belum cukup sesuai dengan perintah pada submision. Tema yang diinstruksikan pada submision tentag Github User
+ - File file yang tidak digunakan lebih baik dihapus

@@ -30,6 +30,8 @@ class ListAgentAdapter(val listAgentCustomerCare: ArrayList<Agent>) : RecyclerVi
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val agent:Agent = listAgentCustomerCare[position]
+        
+        // Image yang dari folder drawable bisa menggunakan .setImageResource
 
         Glide.with(holder.itemView.context)
             .load(agent.photo)

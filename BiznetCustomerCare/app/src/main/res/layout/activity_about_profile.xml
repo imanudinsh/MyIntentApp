@@ -63,6 +63,8 @@
                         android:backgroundTint="@color/BZ3"
                         android:textSize="10dp"
                         android:text="@string/no_tlp"/>
+
+<!--                    Satuan standar untuk ukran text menggunkan sp-->
                     <Button
                         android:id="@+id/btn_share_contact"
                         android:layout_width="match_parent"
